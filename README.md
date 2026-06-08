@@ -51,7 +51,7 @@ To give visitors and developers an immediate look at the system under load, the 
    ```bash
    npm install
 
-3. Launch the local development server:
+3. **Launch the local development server:**
    ```bash
     npm run dev
 
