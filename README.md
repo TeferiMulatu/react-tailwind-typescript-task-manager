@@ -48,11 +48,13 @@ To give visitors and developers an immediate look at the system under load, the 
    Install project dependencies:
 
 2. **INSTALL PROJECT dEPENDENCIES**
-```bash
-npm install
+   ```bash
+   npm install
+
 3. Launch the local development server:
    ```bash
- npm run dev
-4. Build the production bundle:
+    npm run dev
+
+4. **Build the production bundle:**
    ```bash
-npm run build
+   npm run build
