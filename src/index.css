@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+
+  /* Premium system font stack optimization for layouts */
+  --font-sans: "Inter", "SF Pro Display", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", sans-serif;
+}
+
+/* Custom dark mode background system variables */
+.dark {
+  --color-slate-950: #030712;
+  --color-slate-900: #0f172a;
+}
+
+/* Global scrollbar tuning for smooth telemetry lists */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-slate-200);
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--color-slate-800);
+}
