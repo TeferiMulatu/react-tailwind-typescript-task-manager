@@ -34,12 +34,12 @@ const MainLayout: React.FC = () => {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                {/* SIMPLIFIED: Changed title from "TaskFlow Architecture" */}
+                
                 <h1 className="text-base font-bold tracking-tight">Project Dashboard</h1>
-                {/* SIMPLIFIED: Changed from "MERN Dev Ed." */}
+                
                 <span className="text-[10px] bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 px-2 py-0.5 rounded-full font-mono font-medium">Workspace</span>
               </div>
-              {/* SIMPLIFIED: Changed from "Operator: Teferi Mulatu" */}
+              
               <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">Welcome back, <span className="font-semibold text-slate-600 dark:text-slate-300">Developer</span></p>
             </div>
           </div>

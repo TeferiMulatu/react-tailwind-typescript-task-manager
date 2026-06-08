@@ -15,7 +15,7 @@ export const TodoStats: React.FC = () => {
   const low = tasks.filter((t) => t.priority === 'low' && !t.completed).length;
 
   const cardVariants = {
-    hover: { y: -4, scale: 1.01, transition: { type: 'spring', stiffness: 150, damping: 20 } },
+    hover: { y: -4, scale: 1.01, transition: { type: 'spring', stiffness: 150, damping: 20 } }as const,
   };
 
   return (
@@ -27,7 +27,7 @@ export const TodoStats: React.FC = () => {
         className="p-6 bg-white dark:bg-slate-900/40 border border-slate-200/60 dark:border-slate-800/60 rounded-2xl flex items-center justify-between"
       >
         <div>
-          {/* SIMPLIFIED: Changed "Pipeline Scope" to "Total Tasks" */}
+         
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Total Tasks</p>
           <p className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-1">{total}</p>
         </div>
@@ -43,7 +43,7 @@ export const TodoStats: React.FC = () => {
         className="p-6 bg-white dark:bg-slate-900/40 border border-slate-200/60 dark:border-slate-800/60 rounded-2xl flex items-center justify-between"
       >
         <div>
-          {/* SIMPLIFIED: Changed "Velocity Status" to "Progress Done" */}
+          
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Progress Done</p>
           <p className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-1">{percentage}%</p>
         </div>
@@ -59,7 +59,7 @@ export const TodoStats: React.FC = () => {
         className="p-6 bg-white dark:bg-slate-900/40 border border-slate-200/60 dark:border-slate-800/60 rounded-2xl flex items-center justify-between"
       >
         <div>
-          {/* SIMPLIFIED: Changed "High / Med Sprints" to "High / Medium" */}
+         
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">High / Medium</p>
           <p className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-1">{high} <span className="text-sm font-normal text-slate-400">/ {medium}</span></p>
         </div>
@@ -75,7 +75,7 @@ export const TodoStats: React.FC = () => {
         className="p-6 bg-white dark:bg-slate-900/40 border border-slate-200/60 dark:border-slate-800/60 rounded-2xl flex items-center justify-between"
       >
         <div>
-          {/* SIMPLIFIED: Changed "Low Threat" to "Low Priority" */}
+          
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Low Priority</p>
           <p className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-1">{low}</p>
         </div>

@@ -32,12 +32,12 @@ export const TodoList: React.FC = () => {
           >
             <Terminal className="w-8 h-8 text-slate-300 dark:text-slate-700 mb-3" />
             
-            {/* SIMPLIFIED: Changed from "No pipelines matches current filter context" */}
+           
             <p className="text-sm font-semibold text-slate-500 dark:text-slate-400">
               No tasks found here
             </p>
             
-            {/* SIMPLIFIED: Changed from "Ready for next architecture deployment routines." */}
+           
             <p className="text-xs text-slate-400 dark:text-slate-500 mt-1">
               Try changing your filters or add a brand new task above!
             </p>

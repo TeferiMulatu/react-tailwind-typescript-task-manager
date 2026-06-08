@@ -51,7 +51,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({ task }) => {
           </p>
 
           <div className="flex flex-wrap items-center gap-2">
-            {/* SIMPLIFIED labels: These will now display easy words like 'high', 'medium', or 'low' */}
+           
             <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded border ${priorityClasses[task.priority]}`}>
               {task.priority === 'high' ? 'High' : task.priority === 'medium' ? 'Medium' : 'Low'}
             </span>

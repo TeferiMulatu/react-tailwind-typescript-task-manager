@@ -14,6 +14,18 @@ A modern, high-performance task management workspace built for developer teams t
 
 ---
 
+## 🎯 Pre-Seeded Workspace Tasks
+
+To give visitors and developers an immediate look at the system under load, the workspace automatically seeds the following data layers into `localStorage` on its first launch:
+
+1. **🔴 High Priority Backlog:** *Refactor Online Auction Management System secure real-time bidding events.* (Tracks mission-critical architecture states).
+2. **🟡 Medium Priority Pipeline:** *Verify type-safe state tracking pipelines in Dynamic Content Delivery Flow.* (Pre-marked as **Completed** to demonstrate filter states).
+3. **🔵 Low Priority Backlog:** *Review Vite + Tailwind CSS v4 native custom theme variable configuration.* (Includes dynamic calendar due-date mapping).
+
+*Note: If you clear these tasks during testing and want them back, simply clear your browser's Local Storage or run `localStorage.removeItem('taskflow-tasks')` in your developer console to reset the factory seed configuration.*
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Frontend Core:** React 19 + TypeScript

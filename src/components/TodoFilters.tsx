@@ -7,14 +7,14 @@ export const TodoFilters: React.FC = () => {
   const { filterStatus, filterPriority, setFilterStatus, setFilterPriority } = useTodo();
 
   const statuses: { label: string; value: FilterStatus }[] = [
-    { label: 'All Tasks', value: 'all' },       /* SIMPLIFIED: Changed from "All Routines" */
+    { label: 'All Tasks', value: 'all' },      
     { label: 'Active', value: 'active' },
     { label: 'Completed', value: 'completed' },
   ];
 
   const priorities: { label: string; value: FilterPriority }[] = [
     { label: 'All Priorities', value: 'all' },
-    { label: 'High Priority', value: 'high' },   /* SIMPLIFIED: Changed from "High Threat" */
+    { label: 'High Priority', value: 'high' },   
     { label: 'Medium Priority', value: 'medium' },
     { label: 'Low Priority', value: 'low' },
   ];
@@ -23,7 +23,7 @@ export const TodoFilters: React.FC = () => {
     <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between w-full p-4 bg-slate-50/50 dark:bg-slate-900/20 border border-slate-200/60 dark:border-slate-800/60 rounded-2xl">
       <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-400">
         <SlidersHorizontal className="w-4 h-4" />
-        {/* SIMPLIFIED: Changed from "Sorting Engine" */}
+        
         <span>Filters</span>
       </div>
       <div className="flex flex-wrap gap-2 w-full sm:w-auto">
