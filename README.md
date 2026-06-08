@@ -45,6 +45,7 @@ To give visitors and developers an immediate look at the system under load, the 
    Install project dependencies:
 
 2. **INSTALL PROJECT dEPENDENCIES**
+```bash
 npm install
 3. Launch the local development server:
    ```bash
