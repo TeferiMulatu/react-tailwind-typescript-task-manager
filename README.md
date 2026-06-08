@@ -5,6 +5,8 @@ A modern, high-performance task management workspace built for developer teams t
 ---
 ![Task Manager Screenshot](https://github.com/TeferiMulatu/react-tailwind-typescript-task-manager/blob/7e8b786345f17ea8ffd5cf601e7abbd414f3e4cb/task-manager-with-preseeded-info.jpeg)
 ---
+![Task Manager Screenshot dark](https://github.com/TeferiMulatu/react-tailwind-typescript-task-manager/blob/14de938397cd0e0b3b5d9eed714784cee4415bf2/task-manager-dark.jpeg)
+-----
 ## ✨ Features
 
 - **Fluid Dark Mode:** Automatic system preference detection with a custom, ultra-smooth transition toggle (no sudden flashing).
